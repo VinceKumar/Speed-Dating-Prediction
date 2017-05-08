@@ -7,12 +7,12 @@ This is the weekly coding challenge posted on Siraj Raval's youtube channel. The
 
  
 ## Dependencies:
-   *Numpy
-   *Pandas
-   *Matplotlib
-   *Seaborn
-   *Sklearn
-   *Tensor flow 
+ - Numpy
+ - Pandas
+ - Matplotlib
+ - Seaborn
+ - Sklearn
+ - Tensor flow 
  
 
 
