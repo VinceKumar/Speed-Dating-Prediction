@@ -1,17 +1,19 @@
 # Speed-Dating-Prediction
 
-```
-Dependencies:
-  *Numpy
-  *Pandas
-  *Matplotlib
-  *Seaborn
-  *Sklearn
-  *Tensor flow 
-```
+## 
+
+This is the weekly coding challenge posted on Siraj Raval's youtube channel. The [dataset](https://www.kaggle.com/annavictoria/speed-dating-experiment) can be found on kaggle. This model is built to predict whether or not someone will be matched. 
+
+
+ 
+## Dependencies:
+   *Numpy
+   *Pandas
+   *Matplotlib
+   *Seaborn
+   *Sklearn
+   *Tensor flow 
+ 
 
 
 
-
-
-The coding challenge for this video is to use this <https://www.kaggle.com/annavictoria/speed-dating-experiment> speed dating dataset to predict if someone gets a match or not. This dataset is labeled so 1 means they got a match and 0 means they didn't. 
