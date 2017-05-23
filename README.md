@@ -1,8 +1,13 @@
 # Speed-Dating-Prediction
 
-## 
+## Introduction
 
-This is the weekly coding challenge posted on Siraj Raval's youtube channel. The [dataset](https://www.kaggle.com/annavictoria/speed-dating-experiment) can be found on kaggle. This model is built to predict whether or not someone will be matched. 
+This is the weekly coding challenge posted on Siraj Raval's youtube channel. The [dataset](https://www.kaggle.com/annavictoria/speed-dating-experiment) can be found on kaggle. 
+
+
+It was compiled by professors Ray Fisman and Sheena Iyengar from Columbia Business School, originally used for their paper “Gender Differences in Mate Selection: Evidence From a Speed Dating Experiment.” Data was gathered from participants in experimental speed dating events from 2002-2004. During the events, the attendees would have a four minute "first date" with every other participant of the opposite sex. At the end of their four minutes, participants were asked if they would like to see their date again. They were also asked to rate their date on six attributes: Attractiveness, Sincerity, Intelligence, Fun, Ambition, and Shared Interests
+
+
 
 ## EDA 
 
@@ -18,11 +23,22 @@ There is ~5:1 ratio therefore I ignored Accuracy as a metric and optimized Preci
 
 ### Random Forest
    ```
-   Accuracy Score: 0.88
    Precision Score: 0.98
    Recall Score: 0.20
    ```
-
+### Support Vector Classifier 
+   ```
+   Precision Score: 0.98
+   Recall Score: 0.96
+   
+   ```
+### Neural network
+   ```
+   Precision Score: 0.99
+   Recall Score: 0.95
+   ```
+ 
+Overall I would suggest using the SVC because it significantly cheaper when it comes to computational costs relative to the neural network. SVC is also significantly faster too. 
  
 ## Dependencies:
  - Numpy
